@@ -1,9 +1,9 @@
 import time
 import whisper
 
-# model = whisper.load_model("base")
+model = whisper.load_model("base")
 # model = whisper.load_model("medium")
-model = whisper.load_model("large-v2")
+# model = whisper.load_model("large-v2")
 
 time_start = time.time()
 result = model.transcribe("audio.mp3")
