@@ -31,6 +31,7 @@ class ParametricObjects():
         parametricObjects[-1].SetN1(0.5)
         parametricObjects[-1].SetN2(0.1)
 
+
         parametricObjects.append(vtk.vtkParametricSuperToroid())
         parametricObjects[-1].SetN1(0.2)
         parametricObjects[-1].SetN2(3.0)
